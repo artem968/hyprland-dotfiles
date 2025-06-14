@@ -11,7 +11,7 @@ is_package_installed() {
 
 # --- Install essential applications ---
 echo "Installing essential applications..."
-APPS="fuzzel neovim ranger kitty hyprland waybar cava nwg-look nwg-displays fish"
+APPS="fuzzel neovim ranger kitty hyprland waybar cava nwg-look nwg-displays fish unzip firefox"
 MISSING_APPS=""
 
 for app in $APPS; do
